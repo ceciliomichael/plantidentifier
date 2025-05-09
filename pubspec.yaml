@@ -1,0 +1,34 @@
+name: plantidentifier1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  cached_network_image: ^3.4.1
+  camera: ^0.11.1
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.2.1
+  flutter_svg: ^2.1.0
+  google_fonts: ^6.2.1
+  http: ^1.4.0
+  image_picker: ^1.1.2
+  lottie: ^3.3.1
+  path_provider: ^2.1.5
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/lottie/
+    - assets/svg/
